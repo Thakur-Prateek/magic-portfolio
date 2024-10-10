@@ -11,7 +11,7 @@ const person = {
     avatar: '/images/avatar.jpeg',
     
     location : 'ASIA/KOLKATA', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Hindi']  // optional: Leave the array empty if you don't want to display languages
+    languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
