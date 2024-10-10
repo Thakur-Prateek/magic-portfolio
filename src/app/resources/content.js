@@ -1,15 +1,16 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Prateek',
+    lastName:  'Thakur',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
-    avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    role:      'Technical Product Strategist',
+    avatar: '/images/avatar.jpeg',
+    
+    location : 'ASIA/KOLKATA', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Hindi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,31 +25,41 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/Thakur-Prateek',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/prateek-thakur/',
     },
     {
-        name: 'X',
+        name: 'Twitter',
         icon: 'x',
-        link: '',
+        link: 'https://x.com/Prateekthakur_',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:prateek.thakur6@gmail.com',
     },
+    {
+        name: 'Microsoft Learn',
+        icon: 'microsoft',
+        link: 'https://learn.microsoft.com/en-us/users/prateekthakur/achievements',
+    },
+    {
+        name: 'Google Cloud Arcade',
+        icon: 'google',
+        link: 'https://www.cloudskillsboost.google/public_profiles/38099eda-566d-4a34-8d07-31f9a9fd6691'
+    }
 ]
 
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Technical Product Strategist</>,
+    subline: <>I'm Prateek Thakur, a recent Master's graduate in Computer Science with a passion for <inline>Product Management</inline>. I’m dedicated to crafting innovative tech solutions and excited to bring my skills to a dynamic team. In my spare time, I work on personal projects to expand my expertise.</>
 }
 
 const about = {
@@ -64,24 +75,27 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://calendar.google.com/calendar/u/0?cid=YzNjZGU3NWU3NjcwZmUxMWFhY2RiN2ZiOWEzZGIwMjg3MmIwMTExMTVhZTRmNWU3NGEyMDYyNzFiMGMzZGFiNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Prateek is a tech enthusiast and recent Computer Science graduate with a passion for transforming innovative ideas into practical, user-centric solutions. His work spans product management, digital interfaces, and the fusion of technology and strategy.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Lab. for Distributed System and Services',
+                timeframe: 'May,2023 - June,2024',
+                role: 'Graduate Student Researcher',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Achieved 38% Increase in Energy Efficiency: Led a project to optimize energy consumption in NB-IoT networks, applying data-driven strategies to enhance IoT device sustainability.</>,
+                    <>Strategic Analysis of Research Trends: Conducted an in-depth review of NB-IoT literature, synthesizing insights from numerous academic papers to inform research direction and identify emerging trends.</>,
+                    <>Cross-functional Collaboration and Stakeholder Engagement: Worked closely with faculty, lab partners, and industry experts to align research objectives with practical applications, ensuring the project met both academic and industry needs.</>,
+                    <>Prototyping and Testing for Market Viability: Developed and evaluated prototypes to validate NB-IoT applications, focusing on low-bandwidth environments, and provided actionable recommendations for further development.</>,
+                    <>Data-Driven Decision Making: Utilized data analysis to refine transmission protocols, supporting product viability and contributing to published findings that guide future IoT product enhancements.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -93,27 +107,30 @@ const about = {
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'IoTIoT.in, Remote',
+                timeframe: 'July,2021 - Aug,2021',
+                role: 'AI Project Intern',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Role: Engaged in an intensive AI Project Internship, focusing on Convolutional Neural Networks (CNN) and transfer learning techniques.</>,
+                    <>Key Responsibilities:Research and Development: Conducted a detailed study of current transfer learning processes to identify areas for performance enhancement.</>,
+                    <>Technical Implementation: Applied transfer learning to MobileNetV2-SSDLite using TensorFlow, optimizing the model training process.</>,
+                    <>Documentation: Created a comprehensive step - by - step guide to implement transfer learning, facilitating future projects and training initiatives</>
                 ],
-                images: [ ]
+                images: []
             }
         ]
     },
     studies: {
         display: true, // set to false to hide this section
-        title: 'Studies',
+        title: 'Education',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'South Asian University',
+                description: <></>,
+
             },
             {
-                name: 'Build the Future',
+                name: 'GGSIPU',
                 description: <>Studied online marketing and personal branding.</>,
             }
         ]
@@ -153,7 +170,7 @@ const about = {
                 ]
             }
         ]
-    }
+    },
 }
 
 const blog = {
