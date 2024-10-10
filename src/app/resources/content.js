@@ -1,4 +1,5 @@
 import { InlineCode } from "@/once-ui/components";
+import { display } from "./config";
 
 const person = {
     firstName: 'Prateek',
@@ -51,7 +52,17 @@ const social = [
         name: 'Google Cloud Arcade',
         icon: 'google',
         link: 'https://www.cloudskillsboost.google/public_profiles/38099eda-566d-4a34-8d07-31f9a9fd6691'
-    }
+    },
+    {
+            name: 'Medium',
+            icon: 'medium',
+            link: 'https://prateek-thakur.medium.com'
+    },
+    {
+            name: 'Notion',
+            icon: 'notion',
+            link: 'https://prateekthakur.notion.site'
+    },
 ]
 
 const home = {
@@ -88,7 +99,7 @@ const about = {
         experiences: [
             {
                 company: 'Lab. for Distributed System and Services',
-                timeframe: 'May,2023 - June,2024',
+                timeframe: 'May, 2023 - June, 2024',
                 role: 'Graduate Student Researcher',
                 achievements: [
                     <>Achieved 38% Increase in Energy Efficiency: Led a project to optimize energy consumption in NB-IoT networks, applying data-driven strategies to enhance IoT device sustainability.</>,
@@ -107,8 +118,8 @@ const about = {
                 ]
             },
             {
-                company: 'IoTIoT.in, Remote',
-                timeframe: 'July,2021 - Aug,2021',
+                company: 'IoTIoT.in',
+                timeframe: 'July, 2021 - Aug, 2021',
                 role: 'AI Project Intern',
                 achievements: [
                     <>Role: Engaged in an intensive AI Project Internship, focusing on Convolutional Neural Networks (CNN) and transfer learning techniques.</>,
@@ -125,19 +136,19 @@ const about = {
         title: 'Education',
         institutions: [
             {
-                name: 'South Asian University',
-                description: <></>,
+                name: 'MSc. Computer Science',
+                description: <>South Asian University, New Delhi, 2022 - 2024</>,
 
             },
             {
-                name: 'GGSIPU',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Bachelors of Computer Applications',
+                description: <>Guru Gobind Singh Indraprtastha University, New Delhi, 2019 - 2022</>,
             }
         ]
     },
     technical: {
-        display: true, // set to false to hide this section
-        title: 'Technical skills',
+        display: false, // set to false to hide this section
+        title: 'Skills',
         skills: [
             {
                 title: 'Figma',

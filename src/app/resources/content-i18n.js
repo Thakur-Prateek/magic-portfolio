@@ -42,6 +42,7 @@ const createI18nContent = (t) => {
             icon: 'email',
             link: 'mailto:example@gmail.com',
         },
+        
     ]
 
     const home = {
